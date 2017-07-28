@@ -1,0 +1,180 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#welcome
+{
+   background-color: transparent;
+   background-image: url(images/index_welcome_bkgrnd.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14 div
+{
+   text-align: center;
+}
+#LearnMore
+{
+   width: 137px;
+   height: 39px;
+   background-color: #0F97F9;
+   background-image: none;
+   border: 0px #428BCA solid;
+}
+#LearnMore_text
+{
+   position: absolute;
+   left: 1px;
+   top: 11px;
+   width: 135px;
+   height: 27px;
+   overflow: hidden;
+   text-align: center;
+}
+#wb_down-arrow
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #FFFFFF solid;
+   border-radius: 50%;
+   text-align: center;
+   padding: 4px 4px 4px 4px;
+   vertical-align: top;
+}
+#wb_down-arrow:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 3px #FFFFFF solid;
+}
+#down-arrow
+{
+   height: 36px;
+   width: 36px;
+}
+#down-arrow i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 36px;
+   line-height: 36px;
+   vertical-align: middle;
+   width: 23px;
+}
+#wb_down-arrow:hover i
+{
+   color: #F5F5F5;
+}
+#Line1
+{
+   color: #A0A0A0;
+   background-color: #A0A0A0;
+   border-width: 0;
+   margin: 0;
+   padding: 0;
+}
+#LayerMenu1
+{
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#LayerMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#LayerMenu1 li a
+{
+   float: left;
+}
+#LayerMenu1 li .layer
+{
+   display: none;
+   float: left;
+   left: 0;
+   position: absolute;
+   top: 0;
+   border: 1px solid #CCCCCC;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#LayerMenu1 .button
+{
+   cursor: pointer;
+   color: #333333;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   margin: 0 1px 0 0;
+   padding: 4px 20px 4px 8px;
+   position: relative;
+   text-align: left;
+   text-decoration: none !important;
+}
+#LayerMenu1 .button:hover
+{
+   color: #FFFFFF;
+   background-color: #337AB7;
+   border: 1px solid #2E6DA4;
+}
+#LayerMenu1 li:last-child .button
+{
+   margin-right: 0;
+}
+#LayerMenu1 .arrow-down 
+{
+   border-top: 4px solid #333333;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+   position: absolute;
+   top: 50%;
+   right: 4px;
+   left: auto;
+   width: 0;
+   height: 0;
+   margin-top: -2px;
+   margin-left: 0;
+   vertical-align: middle;
+}
+#LayerMenu1 li a:hover .arrow-down
+{ 
+   border-top-color: #FFFFFF;
+}
